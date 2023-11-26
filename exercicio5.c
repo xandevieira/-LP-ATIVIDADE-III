@@ -32,8 +32,11 @@ int main () {
                 printf ("Digite a quantidade vendida: \n");
                 scanf ("%d", &quantidadeVendida[quantidadeVenda]);
 
-                totalVendas = valor[quantidadeVenda] * quantidadeVendida[quantidadeVenda];
+                
+
                 quantidadeVenda++;
+                totalVendas += valor[quantidadeVenda - 1] * quantidadeVendida[quantidadeVenda - 1];
+
 
                 break;
             case 2: 
