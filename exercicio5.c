@@ -13,7 +13,7 @@ int main () {
     int opcao;
     int quantidadeVenda = 0;
     int i;
-    float totalVendas;
+    float totalVendas = 0;
 
     do {
         printf ("=== Menu de Vendas === \n\n");
@@ -45,7 +45,7 @@ int main () {
                 for (i = 0; i < quantidadeVenda; i++) {
 
                     printf ("Nome do Produto: %s\n", nomeProduto[i]);
-                    printf ("Quantidade vendida: %f\n", quantidadeVendida[i]);
+                    printf ("Quantidade vendida: %d\n", quantidadeVendida[i]);
                     printf ("Valor: %.2f\n", valor[i]);
                     printf ("\n\n");
                 }
